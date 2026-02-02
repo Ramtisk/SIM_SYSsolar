@@ -62,7 +62,7 @@ The role of the human is simple:
 
 ### 🟢 Mission 0
 - [x] Create this README.md
-- [ ] Define project vision & scope
+- [x] Define project vision & scope
 - [x] Decide core languages & architecture
 - [x] Create base folder structure
 
@@ -71,7 +71,7 @@ The role of the human is simple:
 ### 🟢 Mission 1
 - [ ] Implement simulation time system
 - [ ] Define `CelestialBody` base class
-- [ ] Create Star, Planet, Moon classes
+- [x] Create Star, Planet, Moon, etc... classes
 - [ ] Load solar system data from JSON
 - [ ] Advance system by time steps (no visuals yet)
 
