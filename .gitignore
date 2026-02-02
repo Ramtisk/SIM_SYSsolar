@@ -7,7 +7,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
 develop-eggs/
 dist/
 downloads/
@@ -31,7 +30,7 @@ ENV/
 # =========================
 # C/C++ Build
 # =========================
-core/build/
+**/build/
 *.o
 *.obj
 *.a
@@ -44,8 +43,8 @@ core/build/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-Makefile
 compile_commands.json
+*.pdb
 
 # =========================
 # IDE & Editors
@@ -104,3 +103,15 @@ experiments/results/
 *.csv
 *.sqlite
 *.db
+
+# =========================
+# Sensitive / API Keys
+# =========================
+*.key
+*.pem
+*.env.local
+*.env.production
+secrets/
+credentials/
+api_keys.txt
+config.local.*
